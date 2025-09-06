@@ -1,15 +1,5 @@
 # 📌 GitHub Showcase  
 
-![React](https://img.shields.io/badge/React-18-blue?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
-![State Management](https://img.shields.io/badge/Zustand-Store-orange)
-![Build](https://img.shields.io/github/actions/workflow/status/your-username/github-showcase/ci.yml?branch=main)
-![Lighthouse Performance](https://img.shields.io/badge/Performance-95-brightgreen)
-![Lighthouse Accessibility](https://img.shields.io/badge/Accessibility-92-brightgreen)
-![Lighthouse Best Practices](https://img.shields.io/badge/Best%20Practices-100-brightgreen)
-![Lighthouse SEO](https://img.shields.io/badge/SEO-98-brightgreen)
-
-## 📖 Deskripsi
 Aplikasi **GitHub Showcase** untuk mencari user GitHub, menampilkan daftar repository, dan membaca isi README dalam format markdown yang rapi.  
 Dibuat dengan **React + TypeScript** dengan state management menggunakan **Zustand**.
 

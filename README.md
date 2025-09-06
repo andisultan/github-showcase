@@ -54,7 +54,7 @@ npm run dev
 
 Create `.env` file:
 ```bash
-GITHUB_TOKEN=your_personal_github_token
+VITE_GITHUB_TOKEN=your_personal_github_token
 ```
 ⚠️ Note: For security, don’t commit your GitHub token to public repo.
 If deploying, use serverless function proxy for better security.

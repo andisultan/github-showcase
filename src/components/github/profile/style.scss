@@ -1,0 +1,55 @@
+.github-profile {
+  position: sticky;
+  top: 16px;
+  width: 100%;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 32px 0;
+  align-self: flex-start;
+
+  &__avatar {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #dbdbdb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  &__name {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  &__login {
+    margin: 0;
+  }
+
+  &__bio {
+    font-size: 14px;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+
+    li {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 786px) {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 16px;
+  }
+}

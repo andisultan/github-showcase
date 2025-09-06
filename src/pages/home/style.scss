@@ -1,0 +1,17 @@
+.home-container {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.github-detail {
+    display: flex;
+    gap: 16px;
+    margin-block: 32px;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 16px;
+
+    @media screen and (max-width: 786px) {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,63 @@
+.github-repository {
+
+    &:not(:last-child) {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #eee;
+    }
+
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        border-left: 1px solid #eee;
+        padding-left: 16px;
+    }
+
+    &__name {
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    &__desc {
+        margin: 0;
+        color: #595959;
+    }
+
+    &__statistic {
+        list-style: none;
+        padding: 0;
+        margin: 16px 0 0 0;
+        display: flex;
+        gap: 16px;
+        font-size: 14px;
+
+        li {
+            display: inline-flex;
+            gap: 4px;
+            align-items: center;
+        }
+
+        button {
+            border: 1px solid #333;
+            border-radius: 4px;
+            background-color: transparent;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            font-size: 14px;
+            gap: 4px;
+        }
+    }
+
+    @media screen and (max-width: 786px) {
+
+        &-wrapper {
+            border-left-width: 0;
+            padding-left: 0;
+        }
+
+        &__statistic {
+            flex-wrap: wrap;
+        }
+    }
+}
